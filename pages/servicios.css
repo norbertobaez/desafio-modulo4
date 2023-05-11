@@ -1,0 +1,80 @@
+.servicios{
+display: flex;
+flex-direction: column;
+background-image: url(../img/hermoso-arreglo-brillantes-hojas-otono.jpg);
+width: 100%;
+align-items: center;
+gap: 1rem;
+height: 100%;
+
+}
+@media(min-width:680px){
+  .servicios{
+    display: flex;
+   
+  }
+}
+.servicios__contenedor{
+ display: flex;
+ flex-direction: column;
+}
+@media(min-width:680px){
+  .servicios__contenedor{
+   flex-direction: row;
+   gap: 30px;
+   
+  }
+}
+
+
+.servicios__titulo{
+font-size: 24px;
+color: aliceblue;
+
+}
+@media(min-width:680px){
+  .servicios__titulo{
+   
+    font-size: 30px;
+  }
+}
+
+.servicios__h2{
+  margin-top: 50px;
+}
+
+.servicios__contenido{
+    
+  background: #393E4680;
+    width: 360px;
+    text-align: center;
+    margin-bottom: 40px;
+    border-radius: 20px;
+}
+@media(min-width:680px){
+  .servicios__contenido{
+    
+  }
+}
+
+.card{
+text-align: center;
+
+
+}
+
+.servicios__titulo-contenido{
+ color: aliceblue;
+}
+
+.servicios__descripcion{
+ color: aliceblue;
+}
+
+.servicios__descripcion-p{
+
+}
+
+.servicios__img{
+  margin:50px;
+}
